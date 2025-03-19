@@ -24,7 +24,7 @@ export default function App() {
       <motion.div
         className="flex flex-col gap-1 items-center justify-center w-full h-full text-4xl font-bold"
         initial={{ x: 0 }}
-        animate={{ x: isLoaded ? '-33%' : '0%' }}
+        animate={{ x: isLoaded ? '-20%' : '0%' }}
         transition={{ duration: 1 }}
       >
         <motion.img
@@ -48,7 +48,7 @@ export default function App() {
 
       {/* 가운데 - 내용 영역 */}
       <motion.div
-        className={`h-full overflow-y-auto p-6 w-5/6 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
+        className={`h-full overflow-y-auto p-6 w-12/6 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
         initial={{ opacity: 0 }}
         animate={{ opacity: isLoaded ? 1 : 0 }}
         transition={{ duration: 2, delay: 1 }}
@@ -58,7 +58,7 @@ export default function App() {
 
       {/* 오른쪽 - 목차 (Symlink 스타일) */}
       <motion.div
-        className={`h-full p-6 border-l border-zinc-800 ${isLoaded ? 'w-1/6' : 'w-0'} bg-zinc-950`}
+        className={`h-full p-6 border-l border-zinc-800 ${isLoaded ? 'w-2/6' : 'w-0'} bg-zinc-950`}
         initial={{ opacity: 0 }}
         animate={{ opacity: isLoaded ? 1 : 0 }}
         transition={{ duration: 1, delay: 1.5 }}
