@@ -20,17 +20,19 @@ export default function Content() {
       <section id="about">
         <h2 className="text-4xl font-semibold">About Me</h2>
         <p className="mt-4 text-lg">
-          안녕하세요, 웹 프론트엔드 개발자 박민흠입니다. React와 Typescript를
-          활용한 웹 서비스 구축 및 유지보수 경험을 보유하고 있습니다.
+          안녕하세요, 웹 프론트엔드 개발자 박민흠입니다. React와 TypeScript를
+          활용한 UI/UX 중심의 웹 서비스 구축 및 유지보수 경험을 보유하고
+          있습니다. 사용자의 편의성과 직관적인 인터페이스를 고려한 개발을
+          중요하게 생각하며, 최적의 사용자 경험을 제공하기 위해 지속적으로
+          고민하고 개선해 나갑니다.
+        </p>
+        <p className="mt-4 text-lg">
+          GitHub, Jira, Confluence 등 다양한 협업 도구를 능숙하게 활용하며, AI를
+          활용한 코드 어시스트를 통해 개발 생산성을 높이고 있습니다.
         </p>
         <p className="mt-4 text-lg">
           한국어와 일본어를 능숙하게 구사하며, 일본에서의 워킹 홀리데이를 통해
           게임 번역 및 번역검수 업무를 수행하며 실무 능력을 키웠습니다.
-        </p>
-        <p className="mt-4 text-lg">
-          GitHub, Jira, Confluence 등 다양한 협업 도구를 능숙하게 활용하며,
-          새로운 기술을 학습하고 이를 바탕으로 혁신적인 서비스를 구현하는 데
-          열정을 가지고 있습니다.
         </p>
       </section>
 
